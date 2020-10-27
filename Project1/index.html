@@ -5,41 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script>
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-    ':35729/livereload.js?snipver=1"></' + 'script>')
-  </script> 
 </head>
+
 <body>
   <style>
-    
-body {
-background-color;
+    img {
+      margin: 20px;
+    }
+    body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
 }
-
-img{
-  margin: 15px;
-  border: 2px solid black;
+.multi-button {
+  filter: drop-shadow(3px 10px 15px rgba(0, 0, 0, 0.45));
 }
-button {
-  font-weight: 700;
+button{
+  height: 50px;
+  width: 100px;
+  background: linear-gradient(to bottom, #1b79a5, #da55bb);
+  font-weight: bold;
   color: white;
-  text-decoration: none;
-  padding: .8em 1em calc(.8em + 3px);
-  background: rgb(64,199,129);
-  box-shadow: 0 -3px rgb(53,167,110) inset;
-  transition: 0.2s;
-  margin: 20px;
-} 
-button:hover { background: rgb(53, 167, 110); }
-button:active {
-  background: rgb(33,147,90);
-  box-shadow: 0 3px rgb(33,147,90) inset;
+  font-size: 1.2rem;
+  border: none;
+  margin: -5px; 
+  padding: 0;
+  stroke: black;
+  outline: none;
+}
+button :nth-child(1){
+  border-radius: 20px 0 0 20px;
+}
+button :nth-child(3){
+  border-radius: 0 20px 20px 0;
+}
+button:hover{
+  cursor: pointer;
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+}
+button:active{
+  filter: none;
+  transform: scale(.95);
 }
 
 
+
+    pre {
+      padding-top: 10px;
+      font-size: 17px;
+      border: 2px solid grey;
+      width: 450px;
+      border-left: 12px solid rgb(79, 64, 168);
+      border-radius: 5px;
+      padding: 14px;
+    }
   </style>
-  
-  <script src="js/script.js"></script>
+
+</body>
+<script src="js/script.js"></script>
+
 </html>
