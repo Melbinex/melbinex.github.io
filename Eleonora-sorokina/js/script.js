@@ -5,14 +5,15 @@ $('.arrow').click(function(){
 
 
 
-   $(function() {
-    $(".hamburger").click(function() {
-    $(this).toggleClass("is-active");
-        })
-    });
+
+//    $(function() {
+//     $(".hamburger").click(function() {
+//     $(this).toggleClass("is-active");
+//     $('.header').toggleClass("color_grey")
+//         })
+//     });
+
+ 
 
 
-
-    $( ".hamburger" ).click(function() {
-        $( ".selector" ).slideToggle();
-      });
+    
