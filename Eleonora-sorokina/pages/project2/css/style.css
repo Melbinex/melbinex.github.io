@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'circebold';
+    src: url('../../../fonts/circe-bold-webfont.woff2') format('woff2'),
+         url('../../../fonts/circe-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'circelight';
+    src: url('../../../fonts/circe-light-webfont.woff2') format('woff2'),
+         url('../../../fonts/circe-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'circeregular';
+    src: url('../../../fonts/circe-regular-webfont.woff2') format('woff2'),
+         url('../../../fonts/circe-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ 
+
+.wrapp{
+    margin: auto;
+    width: 80%;
+}
+.tittle__img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tittle__img_plan{
+    margin: auto;
+    width: 65%;
+    object-fit: cover;
+   
+}
+
+
+
+.tittle__description{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+    margin-top: 40px;
+}
+.block__left{
+  
+   margin-right: 60px;
+
+}
+.block__right{
+    padding-left: 60px;
+    border-left: 2px solid black;
+    width: auto;
+    font-family: 'circelight';
+    line-height: 28px;
+}
+
+@media (max-width: 689px){
+    .block__right{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-left: 0px;
+        border-top: 1px solid rgb(199, 199, 199);
+        border-left: none;
+        width: auto;
+    }
+
+    .tittle__img_plan{
+        margin: auto;
+        width: 55%;
+        object-fit: cover;
+       
+    }
+
+}
+
+
+.block__left_tittle{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'circebold';
+}
+.block__left_description{
+    font-family: 'circelight';
+    
+
+}
+/* Это пиздец как я заебался */
+.tasker__img{
+    width: 50%;
+}
+.tasker__img img{
+    width: 100%;
+    
+}
+
+.elia{
+    width: 80%;
+    margin: auto;
+
+}
+
+.tasker{
+    margin-top: 100px;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+
+
+.task{
+    width: 40%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: 'circelight';
+    
+}
+
+.task__arrow{
+   
+    padding-left: 40px;
+}
+
+
+.task__tittle{
+    
+    font-family: 'circebold';
+    margin-bottom: 40px;
+    
+}
+
+.task__step{
+    
+}
