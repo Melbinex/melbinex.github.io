@@ -110,6 +110,20 @@
 
 
 @media (max-width: 550px) {
+
+
+  .img__wrap{
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+   cursor: pointer;
+  }
+
+  
   .main__items{
     padding: 5px;
     margin-top: 80px;
