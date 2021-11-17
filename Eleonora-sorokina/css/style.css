@@ -9,7 +9,7 @@
 *{
   text-decoration: none;  
   list-style: none;
-
+margin: 0px;
 }
 
 .header__menu{
@@ -108,9 +108,16 @@
   }
 }
 
+.hamburger{
+  display: none;
+
+}
 
 @media (max-width: 550px) {
 
+  .hamburger{
+    display: block;
+  }
 
   .img__wrap{
     -webkit-transition: 0.2s;
@@ -297,4 +304,13 @@ margin-right: 10px;
 }
 .description{
   width: 100%;
+}
+
+.selector{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: auto;
+  background: rgb(59, 49, 85);
+  display: none;
 }
