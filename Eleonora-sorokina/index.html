@@ -8,6 +8,7 @@
   <title>Document</title>
   <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +24,7 @@
         </button>
         <nav class="header__nav">
           <ul class="header__menu">
-            <li><a class="header__list header__list_current" href="#">Project</a></li>
+            <li><a class="header__list header__list_current" href="#">Projects</a></li>
             <li><a class="header__list" href="">About me</a></li>
             <li><a class="header__list" href="">CV</a></li>
 
@@ -39,31 +40,34 @@
       <main class="main">
         <section class="selector">
           <ul>
-            <li><a class="header__list header__list_current" href="">Project</a></li>
+            <li><a class="header__list header__list_current" href="">Projects</a></li>
             <li><a class="header__list" href="">About me</a></li>
             <li><a class="header__list" href="">CV</a></li>
           </ul>
         </section>
         <div class="main__items">
           <div class="main__item img__wrap">
-            <img class=" img__img" src="img/001.jpg" alt="">
-            <div class="img__description_layer">
-              <p class="img__description">Voronezh-city</p>
-              <p class="img__description img_date">2021</p>
-            </div>
-
+            <a href="pages/project1/index.html">
+              <img class=" img__img" src="img/001.jpg" alt="">
+            </a>
+            <a href="pages/project1/index.html">
+              <div class="img__description_layer">
+                <p class="img__description">Voronezh-city</p>
+                <p class="img__description img_date">2021</p>
+              </div>
+            </a>
           </div>
           <div class="main__item img__wrap">
-           <a href="page/project1.html">
-             <img class=" img__img" src="img/002.jpg" alt="">
-            </a> 
-            <a href="page/project1.html">
-            <div class="img__description_layer">
-              <p class="img__description">Voronezh-city</p>
-              <p class="img__description img_date">2021</p>
-            
-            </div>
-          </a>
+            <a href="pages/project2/index.html">
+              <img class=" img__img" src="img/002.jpg" alt="">
+            </a>
+            <a href="pages/project2/index.html">
+              <div class="img__description_layer">
+                <p class="img__description">Voronezh-city</p>
+                <p class="img__description img_date">2021</p>
+
+              </div>
+            </a>
           </div>
           <div class="main__item img__wrap">
             <img class=" img__img" src="img/003.jpg" alt="">
@@ -144,23 +148,29 @@
       <footer class="footer">
         <div class="links">
           <ul class="footer__items">
-            <li class="footer__item"><a target="_blank" href="https://www.behance.net/sorokinaeleonora"><img
-                  src="img/behance.svg" alt="" class="footer__logo"></a></li>
-            <li class="footer__item"><a target="_blank" href=""><img src="img/facebook.svg" alt=""
-                  class="footer__logo"></a></li>
-            <li class="footer__item"><a target="_blank" href="https://www.instagram.com/alienor_august/"><img
-                  src="img/instagram.svg" alt="" class="footer__logo"></a></li>
-            <li class="footer__item"><a target="_blank" href="https://t.me/alienor_august"><img style="width: 20px;"
-                  src="img/telegram.svg" alt="" class="footer__logo"></a></li>
+
+            <a class="footer__link" target="_blank" href="https://www.behance.net/sorokinaeleonora">
+              <img src="img/behance.svg" alt="" class="footer__logo footer__logo1">
+            </a>
+            <a class="footer__link" target="_blank" href="">
+              <img src="img/facebook.svg" alt="" class="footer__logo">
+            </a>
+            <a class="footer__link" target="_blank" href="https://www.instagram.com/alienor_august/">
+              <img src="img/instagram.svg" alt="" class="footer__logo">
+            </a>
+            <a class="footer__link" target="_blank" href="https://t.me/alienor_august">
+              <img style="width: 20px;" src="img/telegram.svg" alt="" class="footer__logo">
+            </a>
           </ul>
         </div>
         <div class="description">
-          <p class="createby"> <a class="createby" href="https://github.com/Melbinex">Created by Melbine</a></p>
+          <p class="footer__autor"> <a class="footer__autor"" href=" https://github.com/Melbinex">Created by Melbine</a>
+          </p>
         </div>
       </footer>
     </div>
   </div>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/burger.js"></script>
   <script src="js/script.js"></script>

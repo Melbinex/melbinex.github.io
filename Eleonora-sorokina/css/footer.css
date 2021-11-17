@@ -1,0 +1,44 @@
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.footer__items{
+  
+  width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+  
+  .footer__item{
+  margin-right: 5px;
+  
+  }
+.footer__link{
+  display: flex;
+}
+.footer__logo{
+    
+  height: 100%;
+  filter: invert(61%) sepia(24%) saturate(3%) hue-rotate(324deg) brightness(90%) contrast(97%);
+}
+
+.footer__logo1{
+  height: 80%;
+}
+
+
+
+
+
+  .footer__autor{
+      padding-bottom: 15px;
+      margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(177, 177, 177);
+    font-family: 'Roboto', sans-serif;
+  }
