@@ -111,9 +111,13 @@
 
     font-family: 'circelight';
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     
+}
+.task__item{
+    width: 80%;
+    margin-left: 14%;
 }
 
 .task__arrow{
@@ -124,7 +128,7 @@
 
 
 .task__tittle{
-    
+    margin-bottom: 20px;
     font-family: 'circebold';
   
     
@@ -139,6 +143,84 @@
 .img_s{
   width: 100%;
   object-fit: cover;
+}
+
+
+
+
+ 
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 117px;
+    text-overflow: clip;
+    
+}
+.team__img__description{
+    position: absolute;
+    bottom: 85%;
+    top: 30px;
+    left: 70%;
+    border: 1px rgba(0, 128, 0, 0) solid;
+    margin-left: 40px;
+}
+
+.team__img__img{
+     width: 100%;
+    object-fit: cover;
+     
+    top: 0;
+    left: 0;
+    border: 1px rgba(255, 0, 0, 0) solid;
+}
+
+.team__img{
+position: relative;
+top: 0;
+left: 0;
+
+}
+
+.team__item_all{
+    width: 70%;
+}
+
+.team__item {
+    display: flex;
+flex-direction: column;
+margin-left: 15%;
+}
+.team__item__tittle {
+    font-family: 'circebold';  
+    margin-bottom: 20px;
+    justify-self: start;
+    align-self: flex-start;
+}
+.team__item__description {
+    font-family: 'circelight';
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.elem1::before{
+    content: url(../../../img/icon1.svg);
+    margin-right: 10px;
+}
+.elem2::before{
+    content: url(../../../img/icon2.svg);
+    margin-right: 10px;
+}
+.elem3::before{
+    content: url(../../../img/icon3.svg);
+    margin-right: 10px;
+}
+.elem4::before{
+    content: url(../../../img/icon4.svg);
+    margin-right: 10px;
+}
+.elem5::before{
+    content: url(../../../img/icon5.svg);
+    margin-right: 10px;
 }
 
 
@@ -163,18 +245,21 @@
     .tittle__description{
          margin-top: 60px;
      }
-  
+   
         
 .tasker{
-    margin-top: 100px;
+    row-gap: 40px;
+    margin: 40px 0px 40px 0px;
     display: grid;
     height: auto;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-   
-}
-        
-    
-
+  }
+  .team{
+    grid-template-columns: 1fr;
+   }
+   .team__item__tittle{
+       margin-top: 40px;
+   }
 }
