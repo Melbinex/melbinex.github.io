@@ -40,7 +40,7 @@
 
  
 
-.wrapp{
+.main{
     margin: auto;
     width: 80%;
 }
@@ -130,11 +130,14 @@
     
 }
 
-.task__item{
+.tasker__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .img_s{
-    width: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -158,7 +161,6 @@
     }
 
     .tittle__description{
-  
          margin-top: 60px;
      }
   
