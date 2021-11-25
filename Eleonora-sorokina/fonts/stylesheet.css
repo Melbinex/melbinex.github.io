@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'circebold';
+    font-family: 'circe';
     src: url('circe-bold-webfont.woff2') format('woff2'),
          url('circe-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -15,10 +15,10 @@
 
 
 @font-face {
-    font-family: 'circelight';
+    font-family: 'circe';
     src: url('circe-light-webfont.woff2') format('woff2'),
          url('circe-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 
 }
@@ -27,7 +27,7 @@
 
 
 @font-face {
-    font-family: 'circeregular';
+    font-family: 'circe';
     src: url('circe-regular-webfont.woff2') format('woff2'),
          url('circe-regular-webfont.woff') format('woff');
     font-weight: normal;

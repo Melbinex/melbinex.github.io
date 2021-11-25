@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Witany na stacja paliw!</h2>
+    </header>
+    <section>
+        <a href="index.html"><img src="home.png"></a>
+        <br>
+        <a href="kalkulacja.html"><img src="znak.png"></a>
+    </section>
+    <section>
+        <img src="samochod.png" alt="grafika: samochod">
+    </section>
+    <main>
+        <h2>Oblicz ile litrow musisz zatankowac</h2>
+        Dystans do przejechania km: 
+        <br>
+        <input type="number">
+        <br>
+        Spalanie samochodu w 1/100km:
+        <br>
+        <input type="number">
+        <br>
+        <input type="button" value="OBLICZ">
+        <br>
+        <p>Potrzebujesz: <span></span> litrow paliwa</p>
+    </main>
+    <footer>
+        <p>Strone opracowal: Daniil Mykolaienko</p>
+    </footer>
+    <footer>
+        <a href="kwerendy.txt">Tu pobierzesz zapytania</a>
+    </footer>
+</body>
+<script>
+    var button = document.querySelector("input[type='button']");
+    button.addEventListener('click',
+    e =>
+    {
+        var text = document.querySelectorAll("input[type = 'number']");
+        var dystans = parseInt(text[0].value);
+        var spalanie = parseInt(text[1].value);
+        var iloscPaliwa = (dystans/100) * spalanie;
+        document.querySelector("p > span").innerHTML = iloscPaliwa;
+    }
+    );
+</script>
+</html>
