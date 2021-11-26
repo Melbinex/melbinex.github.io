@@ -338,6 +338,7 @@ margin-left: 15%;
 
 
 .pr1__bottom{
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -383,4 +384,27 @@ margin-left: 15%;
     width: 94px;
     height: 94px;
     margin-bottom: 15px;
+}
+
+
+
+
+.pr2{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr;
+    height: 425px;
+    margin-top: 278px;
+}
+
+.pr2__left{
+    width: 333;
+background-color: blanchedalmond;
+}
+
+.pr2__middle{
+background-color: burlywood;
+}
+
+.pr2__right{
+background-color: cadetblue;
 }
