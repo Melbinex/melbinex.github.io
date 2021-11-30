@@ -60,6 +60,7 @@ font-family: 'Roboto', sans-serif;
 .lol{
     display: flex;
     flex-direction: row;
+     
 }
 
 .toast__header, .toast__body{
