@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    text-align: center;
+}
+.progress-container{
+    display: flex;
+    max-width: 100%;
+    width: 320px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+}
+.progress-container::before{
+    content: '';
+    background-color: #e0e0e0e0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.progress{
+    background-color: rgb(13, 102, 255);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle{
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e0e0e0e0;
+    transition: 0.4s ease;
+}
+
+.circle.active{
+    border-color: #3498db;
+}
+
+.btn{
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 30px;
+    background: #3498db;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:disabled{
+    background: #e0e0e0e0;
+    cursor: not-allowed;
+}
+
+.btn:focus{
+    outline: 0;
+}
