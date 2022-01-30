@@ -15,6 +15,7 @@
   }
 }
 .header__nav{
+  font-size: 18px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -108,15 +109,15 @@
     min-height: 440px;
     margin: auto;
     margin-top: 193px;
-    background: url(../img/some.svg);
+    background: url(/img/some.svg);
     background-repeat: no-repeat;
-    background-position: center left 19% ;
+    background-position: center left 23% ;
   }
 
   .description__main{
    
     max-width: 327px;
-    font-size: 14px;
+    font-size: 12px;
    
     
   }
@@ -132,7 +133,7 @@
     font-size: 90px;
   
 
-    margin-top: 0px;
+    margin-top: -69px;
     margin-bottom: 0px;
     padding-top: 90px;
     font-family: Segoe UI;
@@ -165,6 +166,7 @@
     justify-content: flex-end;
     text-decoration: none;
     color:  black;
+    font-size: 14px;
   }
 
 
@@ -195,7 +197,7 @@
   display: flex;
 }
 .gallery_1:after{
-  content: url(/img/Scene\ 47.png);
+  content: url(img/Scene\ 47.png);
   position: absolute;
   right: 320px;  
   bottom: -550px;
