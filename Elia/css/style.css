@@ -110,7 +110,7 @@
     min-height: 440px;
     margin: auto;
     margin-top: 193px;
-    background: url(/img/some.svg);
+    background: url(../img/some.svg);
     background-repeat: no-repeat;
     background-position: center left 23% ;
   }
