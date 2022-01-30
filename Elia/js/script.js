@@ -1,6 +1,6 @@
 $('#najnowsze-naglowki').vTicker('init', {
-  speed: 1500,
-  pause: 2000,
+  speed: 800,
+  pause: 4000,
   showItems: 1,
   padding: 1
 });
