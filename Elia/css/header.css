@@ -1,0 +1,93 @@
+.wrapper{
+    max-width: 1090px;
+    margin: auto;
+}
+@media (max-width: 1100px){
+    .wrapper{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+
+.header__nav{
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.nav_ul{
+    width: 15%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+
+
+.logo .li_nav {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo .li_nav::before {
+    content: '';
+    position: absolute;
+    bottom: -20%; left: -4%;
+    width: 120%; height: 59%;
+    background-color: #E5F34E;
+    z-index: -1;
+    transition: .3s;
+    transform: scalex(0);
+    transform-origin: left;
+}
+
+.logo:hover::before{
+    transition: .3s;
+
+    transform: scaleX(1);
+}
+
+
+.nav_ul .li_nav {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1  ;
+}
+
+
+.nav_ul .li_nav::before {
+    content: '';
+    position: absolute;
+    bottom: -20%; left: -4%;
+    width: 120%; height: 59%;
+    background-color: #E5F34E;
+    z-index: -1;
+    transition: .3s;
+    transform: scalex(0);
+    transform-origin: left;
+}
+
+.li_nav:hover::before{
+    transition: .3s;
+
+    transform: scaleX(1);
+}

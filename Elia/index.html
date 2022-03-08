@@ -2,89 +2,85 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
-  <div class="wrapper">
-
-
-
-
-
+<div class="wrapper">
     <header class="header">
-      <nav class="header__nav">
-        <div class="logo ">
-          <p class="logo__text li_nav">Eleonora Sorokina</p>
+        <nav class="header__nav">
+            <div class="logo ">
+                <p class="logo__text li_nav"><a href="index.html">Eleonora Sorokina</a></p>
 
-        </div>
-        <ul class="nav_ul">
+            </div>
+            <ul class="nav_ul">
 
-          <li class="nav_about li_nav ">About</li>
-          <li class="nav_be li_nav ">Be</li>
+                <li class="nav_about li_nav "><a href="index2.html">About</a></li>
 
-        </ul>
-      </nav>
+                <li class="nav_be li_nav "><a href="https://www.behance.net/sorokinaeleonora">Be</a></li>
+
+            </ul>
+        </nav>
     </header>
     <div class="main">
-      <!-- <img class="arrow_main" src="img/Vector 219.svg" alt=""> -->
-      <div class="main_h1">
-        <div id="najnowsze-naglowki" style="margin-left: 19%" >
-          <ul id="slide">
-            <li class="main__h1_top animate__animated  "> Experience </li>
-            <li class="main__h1_top animate__animated "> Interface </li>
-          </ul>
+        <!-- <img class="arrow_main" src="img/Vector 219.svg" alt=""> -->
+        <div class="main_h1">
+            <div id="najnowsze-naglowki" style="margin-left: 19%">
+                <ul id="slide">
+                    <li class="main__h1_top"> Experience</li>
+                    <li class="main__h1_top"> Interface</li>
+                </ul>
+            </div>
+
+
+            <h1 class='main__h1_bot animate__animated '>designer</h1>
         </div>
-
-
-        <h1 class='main__h1_bot animate__animated '>designer</h1>
-      </div>
-      <div class="description_m">
-        <p class="description__main description-top animate__animated animate__slideInRight animate__faster	500ms ">Over the last 6 years, I've
-          worked on a diverse range of projects
-          across multiple disciplines from UX research, participatory design, 3d modeling to public presentation.
-        </p>
-        <p class="description__main description-bot animate__animated animate__slideInRight animate__fast	800ms ">I have always been an
-          Experience Designer, but in a physical
-          world. My architecture projects was on International Biennial and won 100+ millions rubles. Now I'm switching
-          my specialization to digital — work as UX/UI designer.</p>
-          <div class="description_mm">
-        <a href="#" class="more_main">More about me</a> 
-      </div>
-      </div>
+        <div class="description_m">
+            <p class="description__main description-top animate__animated animate__slideInRight animate__faster	500ms ">
+                Over the last 6 years, I've
+                worked on a diverse range of projects
+                across multiple disciplines from UX research, participatory design, 3d modeling to public presentation.
+            </p>
+            <p class="description__main description-bot animate__animated animate__slideInRight animate__fast	800ms ">
+                I have always been an
+                Experience Designer, but in a physical
+                world. My architecture projects was on International Biennial and won 100+ millions rubles. Now I'm
+                switching
+                my specialization to digital — work as UX/UI designer.</p>
+            <div class="description_mm">
+                <a href="#" class="more_main">More about me</a>
+            </div>
+        </div>
     </div>
 
     <div class="gallery">
-      <div class="gallery_1_description">
-        <div class="gallery_1 gallery_all ">
-          <p class="gallery_tittle">Familio</p>
-
-          <p class="gallery__1_description">App concept, Behance</p>
+        <div class="gallery_1_description">
+            <div class="gallery_1 gallery_all">
+                <p class="gallery_tittle">Familio</p>
+                <p class="gallery__1_description">App concept, Behance</p>
+            </div>
+            <div class="gallery_2 gallery_all">
+                <p class="gallery_tittle">AnyKey</p>
+                <p class="gallery__2_description">E-commerse site (Coming soon)</p>
+            </div>
+            <div class="gallery_3 gallery_all">
+                <p class="gallery_tittle">Guggenheim</p>
+                <p class="gallery__3_description">Landing page, Tilda</p>
+            </div>
         </div>
-        <div class="gallery_2 gallery_all">
-          <p class="gallery_tittle">AnyKey</p>
-          <p class="gallery__2_description">E-commerse site (Coming soon)</p>
-        </div>
-        <div class="gallery_3 gallery_all">
-          <p class="gallery_tittle">Guggenheim</p>
-          <p class="gallery__3_description">Landing page, Tilda</p>
-        </div>
-      </div>
-
-
-
 
     </div>
-    
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="js/vticker.js"></script>
     <script src="/js/script.js"></script>
-     <script>$('#najnowsze-naglowki').vTicker('init', {
+    <script>$('#najnowsze-naglowki').vTicker('init', {
       speed: 600,
       pause: 3000,
       showItems: 1,

@@ -2,33 +2,100 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/page2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<div class="wrapper">
+    <header class="header">
+        <nav class="header__nav">
+            <div class="logo">
+                <p class="logo__text li_nav"><a href="index.html">Eleonora Sorokina</a></p>
+            </div>
+            <ul class="nav_ul">
+                <li class="nav_about li_nav "><a href="index2.html">About</a></li>
+                <li class="nav_be li_nav "><a href="https://www.behance.net/sorokinaeleonora">Be</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="left__column">
+            <div class="photo">
+                <img class="photo__img" src="img/elia__photo.png" alt="">
+            </div>
+            <div class="tools logo__text li_nav">
 
-  <div id="najnowsze-naglowki">
-    <ul class="asdasd">
-        <li>Uwaga! Silny wiatr!</li>
-        <li>Uwaga! Silny wiatr!</li>
-    </ul>
+                <div class="logo2">
+                    <p class="li_nav2 tools__tittle">Tools:</p>
+                </div>
+                <!--                <div class="">-->
+                <!--                    <p class="tools__tittle">Tools:</p>-->
+                <!--                </div>-->
+                <div class="tools__list">
+
+                    <div class="pairs__skills_1">
+
+                        <p class="skill ">Figma</p>
+                        <p class="skill bottom">Photoshop</p>
+                    </div>
+                    <div class="pairs__skills_2">
+                        <p class="skill">Adobe XD</p>
+                        <p class="skill bottom">InDesign</p>
+                    </div>
+                    <div class="pairs__skills_3">
+                        <p class="skill">SketchUP</p>
+                        <p class="skill bottom">Blender</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="middle__column">
+            <img src="img/lightning.svg" alt="" class="litningh">
+        </div>
+        <div class="right__column">
+            <div class="fuckthisshit">
+                <p class="fuckthisshit-1">Hi</p>
+                <p class="fuckthisshit-2">there,</p>
+            </div>
+            <div class="about">
+            <p style="margin-bottom: 16px">I’m Eleonora Sorokina - the UX/UI Designer based in Voronezh, Russia. My background is 5 years in
+                Architecture, in which I hold a Bachelor of Architecture with distinction</p>
+            <p style="margin-bottom: 16px">During my studies at the university, I was a very proactive person. And I tried to get as many diverse
+                experiences as possible to test my skills and learn something new about myself. As a result, I found out
+                that I am a team player and that my interest is focused on the digital space.</p>
+            <p>As an UX/UI Designer, in development, I usually start with researching and building hypotheses. After
+                defining the main tasks, I am engaged in prototyping. I believe, understanding human needs is
+                fundamental in creating meaningful and emotional products. </p>
+                <p style="margin-top: 100px; margin-bottom: 0px">Now I am actively looking for a job in Krakow or Warsaw as an UX/UI Designer. Feel free to say hi!</p>
+                    <div class="links">
+                    <p><a class="li_nav3" href="https://www.behance.net/sorokinaeleonora">Behance</a></p>
+                    <p><a class="li_nav3" href="mailto:sorokina.eleonora@gmail.com">Mail</a></p>
+                    <p><a class="li_nav3" href="">Resume</a></p>
+                </div>
+                <p style="margin-top:20px; color: #999999">Coded by Melbine <br> © Eleonora Sorokina, 2022</p>
+            </div>
+        </div>
+
+    </div>
 </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-  <script src="http://richhollis.github.io/vticker/downloads/jquery.vticker.min.js?v=1.21"></script>
-  <script>
-    $('#najnowsze-naglowki').vTicker('init', {
-      speed: 600,
-      pause: 1000,
-      showItems: 1,
-      padding: 15
-    });
-  </script>
 </body>
 
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+<script src="js/vticker.js"></script>
+<script src="/js/script.js"></script>
+<script>$('#najnowsze-naglowki').vTicker('init', {
+  speed: 600,
+  pause: 3000,
+  showItems: 1,
+  padding: 1
+});</script>

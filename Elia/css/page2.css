@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+}
+
+
+.main {
+    width: 80%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.left__column {
+    height: 100%;
+    width: 36%;
+
+}
+
+
+.photo__img {
+    margin-top: 69px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.tools {
+    display: flex;
+    margin-top: 78px;
+}
+
+.tools__tittle {
+    font-size: 18px;
+    margin: 0 33px 0 0;
+
+}
+
+.tools__list {
+    width: 230px;
+    display: flex;
+
+    margin-top: 5px;
+
+}
+
+.skill {
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.bottom {
+    margin-bottom: 0;
+}
+
+.pairs__skills_1 {
+    margin-right: 20px;
+}
+
+.pairs__skills_2 {
+
+}
+
+.pairs__skills_3 {
+    margin-left: 20px;
+}
+
+
+.logo2 .li_nav2 {
+    display: inline-block;
+    position: relative;
+
+}
+
+.logo2 .li_nav2::before {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+    width: 120%;
+    height: 59%;
+    background-color: #E5F34E;
+    z-index: -1;
+}
+
+.logo2:hover::before {
+    transition: .3s;
+
+    transform: scaleX(1);
+}
+
+.litningh {
+    position: relative;
+    top: 6px;
+    margin-left: 50px;
+}
+
+.right__column {
+    height: 100%;
+    width: 60%;
+    background: #ffffff;
+}
+
+.fuckthisshit {
+
+    position: relative;
+    top: 13px;
+    left: -32%;
+}
+
+.fuckthisshit-1 {
+    font-family: Segoe UI, serif;
+    margin: 0;
+    font-size: 90px;
+    position: relative;
+    left: 42%;
+    top: 2%;
+    line-height: 85px;
+}
+
+.fuckthisshit-2 {
+    left: 10px;
+    font-family: Segoe UI, serif;
+    margin: 0;
+    font-size: 90px;
+    position: relative;
+    line-height: 85px;
+}
+
+.about {
+    position: relative;
+    left: 12%;
+    top: 2%;
+    margin-top: 45px;
+    font-size: 12px;
+    width: 315px;
+        line-height: 19px;
+}
+
+.links{
+    display: flex;
+}
+
+.links > p{
+    margin-right: 17px;
+}
+
+
+
+.links .li_nav3 {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1  ;
+}
+
+
+.links .li_nav3::before {
+    content: '';
+    position: absolute;
+    bottom: 0%; left: 0%;
+    width: 89%; height: 30%;
+    background-color: #E5F34E;
+    z-index: -1;
+    transition: .3s;
+    transform: scalex(0);
+    transform-origin: left;
+}
+
+.li_nav3:hover::before{
+    transition: .3s;
+
+    transform: scaleX(1);
+}
