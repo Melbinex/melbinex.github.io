@@ -18,12 +18,17 @@ html {
 }
 
 .main {
-
+    position: relative;
     max-width: 900px;
     min-height: 440px;
-    margin: 193px auto auto;
-    background: url(../img/some.svg) no-repeat center left 23%;
+    margin: 102px auto auto;
 }
+.arrow_main{
+    position: absolute;
+
+}
+
+
 
 .description__main {
 
@@ -37,34 +42,38 @@ html {
 .main_h1 {
     display: flex;
     flex-direction: column;
-}
 
+}
+.large_text{
+    z-index: 100;
+    margin-top: 96px;
+    margin-left: 112px;
+}
 .main__h1_top {
     justify-self: center;
     align-self: center;
     margin-right: 10%;
     font-weight: 400;
-    font-size: 90px;
-
-
-    margin-top: -69px;
+    font-size: 112px;
     margin-bottom: 0;
-    padding-top: 90px;
+    padding-top: 112px;
     font-family: Segoe UI, serif;
 }
 
 .main__h1_bot {
-    margin-left: 3%;
+    position: relative;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 112px;
+    right: 195px;
     margin-top: 0;
     margin-bottom: 0;
     font-family: Segoe UI, serif;
-    line-height: 80px;
+    line-height: 130px;
 }
 
 
 .description_m {
+    margin-top: 25px;
     margin-bottom: 40px;
     width: 100%;
     display: flex;
@@ -74,17 +83,19 @@ html {
 }
 
 .description__main {
-    margin-right: 90px;
+    margin-right: 85px;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .more_main {
+    font-size: 18px;
     margin-top: 0;
-    margin-right: 90px;
+    margin-right: 85px;
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
     color: black;
-    font-size: 14px;
 }
 
 
@@ -101,11 +112,18 @@ html {
 }
 
 .gallery_description_all {
+    font-size: 18px;
     margin: 0;
+    margin-left: 67px;
+    margin-bottom: 42px;
 }
 
 .gallery_tittle {
-    font-size: 85px;
+    margin-top: 42px;
+    font-size: 112px;
+    margin-bottom: 0px;
+    margin-left: 67px;
+    
 }
 
 .gallery_1 {
@@ -115,6 +133,8 @@ html {
 }
 
 .gallery_all {
+    display: flex;
+    flex-direction: column;
     border-top: 1px solid black;
     position: relative;
 }
@@ -123,8 +143,9 @@ html {
     z-index: 20;
     position: absolute;
     opacity: 0;
-    left: 722px;
-    top: -84px;
+    left: 900px;
+    /* top: -84px; */
+    top: -50%;
     transition: 0.2s ease-in-out;
 }
 
@@ -146,10 +167,6 @@ html {
 
 .gallery_4::after {
     content: url(../img/4.png);
-}
-
-.gallery_5::after {
-    content: url(../img/1.png);
 }
 
 

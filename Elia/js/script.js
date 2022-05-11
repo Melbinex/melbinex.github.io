@@ -17,10 +17,6 @@ const galleryItems = [
     subTitle: 'Shopping app, Behance',
   },
   {
-    title: 'AnyKey',
-    subTitle: 'E-commerce site (Coming soon)',
-  },
-  {
     title: 'Smart home',
     subTitle: 'Shots, Behance',
   },
